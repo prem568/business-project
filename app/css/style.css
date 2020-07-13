@@ -1,5 +1,5 @@
 body{
-    background: url('../images/mock-up.jpg');
+
     background-position: center top;
     background-repeat: no-repeat;
     height: 5227;
@@ -396,7 +396,6 @@ header{
 }
 .contact-info{
     flex-basis: 40%;
-    background-color: #ffff003b;
     height: 597px;
 }
 .contact-information{
@@ -420,34 +419,34 @@ header{
 .contact-status{
     flex-basis: 79%;
 }
-.conact-text-1 h2{
+.contact-text-1 h2{
     font-size: 19px;
     padding-top: 17px;
     
 }
-.conact-text-2 h2{
+.contact-text-2 h2{
     padding-top: 16px;
     font-size: 19px;
     
 }
-.conact-text-3 h2{
+.contact-text-3 h2{
     font-size: 20px;
     padding-top: 19px;
    
 }
-.conact-text-1 p{
+.contact-text-1 p{
     margin-top: -8px;
    
 }
-.conact-text-2 a,
-.conact-text-3 a{
+.contact-text-2 a,
+.contact-text-3 a{
     text-decoration: none;
 
 }
-.conact-text-2 p{
+.contact-text-2 p{
     margin-top: -11px;
 }
-.conact-text-3 p{
+.contact-text-3 p{
     margin-top: -10px;
 }
 .contact-form{
