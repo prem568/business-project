@@ -1,8 +1,8 @@
 body{
-
+    background: url('../images/mock-up.jpg');
     background-position: center top;
     background-repeat: no-repeat;
-    height: 5227;
+    height: 5227px;
     font-family: sans-serif;
 }
 .container{
@@ -21,9 +21,8 @@ header{
 }
 .header-wrapper .logo h1{
      font-size:29px;
-     font-weight:600px ;
+     font-weight:600;
 }
-
 .navi{
      list-style: none;
      display: flex;
@@ -67,7 +66,7 @@ header{
     text-decoration: none;
     display: inline-block;
     padding: 15px 32px;
-    background-color: cornflowerblue;
+    background-color: rgb(132, 175, 255);
     border-radius: 14px;
 }
 .hero-image img{
@@ -82,8 +81,7 @@ header{
 }
 #about .container{
     background-color: #f7f8fa;
-    padding: 8px 20px;
-    
+    padding: 8px 20px;   
 }
 .about-wrapper{
     display: flex;
@@ -97,8 +95,6 @@ header{
 }
 .about-wrapper .about-text{
     flex-basis: auto;
-    
-    
 } 
 .about-text h3{
     color: #385b75;
@@ -129,71 +125,49 @@ header{
 }
 #features{
     height: 530px;
-}#features p{
-
-}
-#features h2{
-
-}
-.features-lists{
-
 }
 .features-list-1{
     margin: -42px -115px 38px -41px;
     padding: 16px 0px 18px 7px;
     background-color: #fbfbfb;
     border-left: solid 4px blue;
- 
 }
 .features-list-1 h3{
       font-size: 20px;
 }
-
 .features-list-2{
     margin: -18px 0 0 -31px;
     color: #5e6d74;
-
 }
 .features-list-2 h3{
     font-size: 20px;
-
 }
 .features-list-3{
     padding: 32px 0px 39px 0px;
     margin: 0px 0 0px -31px;
     color: #5e6d74;
-
 }
 .features-list-3 h3{
     font-size: 20px;
-
 }
 .features-list-4{
     margin: -7px 0px 0px -33px;
     color: #5e6d74;
-
 }
 .features-list-4 h3{
     font-size: 20px;
-
 }
-#features .container{
-
-}
-
 #features .features-wrapper{
     display: flex;
     justify-content: space-between;
 }
 .features-wrapper .features-text{
     flex-basis: auto;
-    margin-left: -3px;
-    
+    margin-left: -3px;   
 }
 .features-text .features-lists{
     border-left: solid 4px #fafcfb;
 }
-
 .features-wrapper .features-image{
     flex-basis: auto;
 }
@@ -209,8 +183,11 @@ header{
     padding-top: 36px;
 }
 .section-header h2{
+    padding: 0 41px 0px 13px;
     text-align: center;
     color: #708892;
+    font-size: 35px;
+    font-weight: 300;
 }
 .section-header p{
     text-align: center;
@@ -276,15 +253,8 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.section-header h2{
-
-}
-
 .portfolio-wrapper{
     flex-basis: auto;
-}
-.portfolio-wrapper a{
-
 }
 .portfolio-wrapper img{
     max-width: 343px;
@@ -298,9 +268,6 @@ header{
 #c2a .c2a-overlay{
     height: 265px;
     background-color: #ffffffb8;
-}
-#c2a .container{
-
 }
 .c2a-wrapper{
     height: 265px;
@@ -416,21 +383,27 @@ header{
     line-height: 29px;
     font-size: 18px;
 } 
-.contact-status{
+.contact-status,
+.contact-text-1,
+.contact-text-2,
+.contact-text-3{
     flex-basis: 79%;
+    margin: 4px 0 0 -48px;
 }
 .contact-text-1 h2{
-    font-size: 19px;
-    padding-top: 17px;
-    
+    font-size: 24px;
+    color: #909799;
+    padding: 31px 0 0px 0px;
+    border-radius: 11px;
 }
 .contact-text-2 h2{
     padding-top: 16px;
-    font-size: 19px;
-    
+    font-size: 24px;
+    color: #909799;
 }
 .contact-text-3 h2{
-    font-size: 20px;
+    font-size: 24px;
+    color: #909799;
     padding-top: 19px;
    
 }
@@ -450,85 +423,75 @@ header{
     margin-top: -10px;
 }
 .contact-form{
-   
-    height: 597px;
-    width: 632px;
+    width: 60%;
+    max-width: 700%;
+    margin: -8px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+} 
+.form{
+    margin: 30px 0;
 }
-.form-style-1 .fixed-width{
-    min-width: 180px;
-    display: inline-block;
+ .top-form{
+    width: 156%;
+    min-height: 92px;
+    margin: 10px 0;
+    overflow: hidden;
+ }
+.middle-form,
+.bottom-form{
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+    overflow: hidden;
 }
-.form-style-1 .input-section{
-    margin-bottom: 20px;
+.form input[type="text"],
+.form textarea{
+    padding: 15px 5px;
+    width: 97%;
+    border: 2px solid #d9dde1;
+    border-radius: 2px;
 }
-.form-style-1 .action-section{
-    margin-left: 185px;
-    display: inline-block;
+.form input:focus,
+.form textarea:focus{
+    margin: 0px;
+    width: 567px;
+    height: 242px;
+    border-color:grey;
 }
-.form-style-1 input[type='text'],
-.form-style-1 input[type='email'],
-.form-style-1 input[type='tel'],
-.form-style-1 select,
-.form-style-1 textarea{
-    min-width: 452px;
-    margin: -9px -20px 26px 9px;
+.form .lable{
+    margin-bottom: 5px;
 }
-.form-style-1 textarea{
-    min-height: 70px;
+.top-form .inner-form{
+    width: 29.9%;
+    float: left;
+    margin-right: 5% ;
 }
-.form-style-1 input:focus{
-    
-    outline: none;
+.top-form .inner-form{
+    margin-right: 0px;
 }
-
-.form-style-1 .input-section-1{
-    justify-content: center;
+.middle-form{
+    clear: both;
 }
-.form-style-1 .input-section-2{
-
+.bottom-form textarea{
+    height:  183px;
 }
-.form-style-1 .input-section-3{
-
-}
-.form-style-1 .input-section-4{
-    
-}
-.follow-section,
-.primary-button{
+.primary-sec {
+    background-color: #009ce9;
+    width: 144px;
     text-align: center;
-    font-size: 22px;
-    font-weight: 100;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 12px 0px 0px 0px;
-    margin: 20px -254px 20px 98px;
-    background-color: cornflowerblue;
-    border-radius: 5px;
-    
+    padding: 14px;
+    margin: 0px 0 0px 215px;
+    font-size: 16px;
+    color: #fafcfb;
+    font-weight: 500;
+    border-radius: 6px;
 }
 footer{
-    height: 110px;
+    line-height: 0px;
+    text-align: center;
+    font-size: 17px;
+    color: #7595a8;
+    background-color: #f7f8fa;
+    margin: -20px 7px 22px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
